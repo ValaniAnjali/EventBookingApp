@@ -51,39 +51,39 @@ class _ProfileState extends State<Profile> {
         future: userDataFuture,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
-            // While data is loading
             return const Center(child: CircularProgressIndicator());
           } else if (snapshot.hasError) {
-            // If there was an error
             return Center(child: Text('Error: ${snapshot.error}'));
           } else if (snapshot.hasData) {
-            // When data is ready
             final userData = snapshot.data!;
-            return Center(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  userData['imageUrl'].isNotEmpty
-                      ? CircleAvatar(
-                          radius: 60,
-                          backgroundImage: NetworkImage(userData['imageUrl']),
-                        )
-                      : const CircleAvatar(
-                          radius: 60,
-                          child: Icon(Icons.person, size: 50),
-                        ),
-                  const SizedBox(height: 20),
-                  Text(
-                    userData['name'],
-                    style: const TextStyle(
-                        fontSize: 24, fontWeight: FontWeight.bold),
-                  ),
-                  const SizedBox(height: 10),
-                  Text(
-                    userData['email'],
-                    style: const TextStyle(fontSize: 16),
-                  ),
-                ],
+            return SingleChildScrollView(
+              child: Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    userData['imageUrl'].isNotEmpty
+                        ? CircleAvatar(
+                            radius: 60,
+                            backgroundImage: NetworkImage(userData['imageUrl']),
+                          )
+                        : const CircleAvatar(
+                            radius: 60,
+                            child: Icon(Icons.person, size: 50),
+                          ),
+                    const SizedBox(height: 20),
+                    Text(
+                      userData['name'],
+                      style: const TextStyle(
+                          fontSize: 24, fontWeight: FontWeight.bold),
+                    ),
+                    const SizedBox(height: 10),
+                    Text(
+                      userData['email'],
+                      style: const TextStyle(fontSize: 16),
+                    ),
+                  ],
+                ),
               ),
             );
           } else {
