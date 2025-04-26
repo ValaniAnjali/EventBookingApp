@@ -1,5 +1,5 @@
 # bookingapp
--> Tech stack : This app is created using firebase realtime database and dart (Flutter)
+-> Tech stack : This app is created using firebase realtime database and dart (Flutter) <br>
 -> This app has feature of google signin also have admin side, from where admin can enter new event with details.
 -> After Signin with google user can see all events and data is coming from firebase database. after clicking on perticular event user can book n number of tickets.
 -> For now i am using fack payment screen. once payment will be done entry will be entered into firebase.
