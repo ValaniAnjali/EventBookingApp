@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>286818601377-5664i8gmh3fioie47bqt10neqith989u.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.286818601377-5664i8gmh3fioie47bqt10neqith989u</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDl22ETtEEoS6r-IL8UT_7EYsfWYq_V8vs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>286818601377</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.bookingapp</string>
+	<key>PROJECT_ID</key>
+	<string>eventmanagementsystem-99e2a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>eventmanagementsystem-99e2a.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:286818601377:ios:2ab6c55d31e692ae3de3e0</string>
+</dict>
+</plist>

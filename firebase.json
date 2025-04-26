@@ -1,0 +1,33 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "eventmanagementsystem-99e2a",
+          "appId": "1:286818601377:android:df3a6e9a054c6ccc3de3e0",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "eventmanagementsystem-99e2a",
+          "configurations": {
+            "android": "1:286818601377:android:df3a6e9a054c6ccc3de3e0",
+            "ios": "1:286818601377:ios:2ab6c55d31e692ae3de3e0",
+            "macos": "1:286818601377:ios:2ab6c55d31e692ae3de3e0",
+            "web": "1:286818601377:web:8ee6314cd5ea69dd3de3e0",
+            "windows": "1:286818601377:web:4f004c94730dc2073de3e0"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

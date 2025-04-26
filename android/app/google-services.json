@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "286818601377",
+    "project_id": "eventmanagementsystem-99e2a",
+    "storage_bucket": "eventmanagementsystem-99e2a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286818601377:android:df3a6e9a054c6ccc3de3e0",
+        "android_client_info": {
+          "package_name": "com.example.bookingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "286818601377-6lp178h387m48sp7seplfksopihm6ssu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bookingapp",
+            "certificate_hash": "0f76a8b01dd875405ffc38575fffbcab77a96c03"
+          }
+        },
+        {
+          "client_id": "286818601377-9ppnrbeisimb243nntj6oq5l5g0glu7j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAocj5UOlSPsBiZ06mKfFUsjrUldyOuVE0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "286818601377-9ppnrbeisimb243nntj6oq5l5g0glu7j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "286818601377-5664i8gmh3fioie47bqt10neqith989u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bookingapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
