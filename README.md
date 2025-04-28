@@ -10,3 +10,7 @@
 
 here is vido of  output of project : https://drive.google.com/file/d/1-zwpqhkjOL_oEzfs_YCgfQUl4d0fi7ry/view?usp=sharing<br><br>
 live website link: https://eventmanagementsystem-99e2a.web.app/
+
+
+#Screenshot
+![image](https://github.com/user-attachments/assets/0c02a0af-c887-488b-a338-de6533927601)
